@@ -1,4 +1,4 @@
-import { digest } from '@hopae/sd-jwt-node-crypto';
+import { digest } from '@bcrl/sd-jwt-node-crypto';
 import { bytesToHex } from '@noble/hashes/utils';
 import { hasher, sha256 } from '../sha256';
 import { describe, expect, test } from 'vitest';

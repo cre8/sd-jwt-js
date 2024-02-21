@@ -2,8 +2,8 @@
 
 | Maintainer        | GitHub ID        | LFID      | Email                 | Chat ID     | Company Affiliation | Scope     |
 | ----------------- | ---------------- | --------- | --------------------- | ----------- | ------------------- | --------- |
-| Ace               | pensivej         | -         | Ace@hopae.io          | Ace         | Hopae Inc.          | sd-jwt-js |
-| Gavin             | zustkeeper       | -         | Gavin@hopae.io        | Gavin       | Hopae Inc.          | sd-jwt-js |
+| Ace               | pensivej         | -         | Ace@bcrl.io           | Ace         | Hopae Inc.          | sd-jwt-js |
+| Gavin             | zustkeeper       | -         | Gavin@bcrl.io         | Gavin       | Hopae Inc.          | sd-jwt-js |
 | Lukas             | lukasjhan        | Lukas.Han | lukas.j.han@gmail.com | lukas.j.han | Hopae Inc.          | sd-jwt-js |
 | Berend Sliedrecht | berendsliedrecht | beri14    | sliedrecht@berend.io  | -           | Animo Solutions     | sd-jwt-js |
 
