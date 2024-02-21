@@ -8,7 +8,7 @@ import {
   HasherAndAlg,
   DisclosureData,
   HasherAndAlgSync,
-} from '@hopae/sd-jwt-type';
+} from '@bcrl/sd-jwt-type';
 
 export class Disclosure<T> {
   public salt: string;
