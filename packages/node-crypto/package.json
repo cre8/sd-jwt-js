@@ -1,6 +1,6 @@
 {
   "name": "@bcrl/sd-jwt-node-crypto",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "sd-jwt draft 7 implementation in typescript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",

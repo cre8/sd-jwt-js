@@ -1,6 +1,6 @@
 {
   "name": "@bcrl/sd-jwt-util",
-  "version": "2.0.3",
+  "version": "2.1.0",
   "description": "sd-jwt draft 7 implementation in typescript",
   "main": "dist/index.js",
   "module": "dist/index.mjs",
@@ -35,10 +35,10 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@bcrl/sd-jwt-node-crypto": "2.0.3"
+    "@bcrl/sd-jwt-node-crypto": "2.1.0"
   },
   "dependencies": {
-    "@bcrl/sd-jwt-type": "2.0.3",
+    "@bcrl/sd-jwt-type": "2.1.0",
     "js-base64": "^3.7.6"
   },
   "tsup": {
