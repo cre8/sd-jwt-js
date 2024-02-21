@@ -1,7 +1,7 @@
 {
   "name": "@bcrl/sd-jwt",
   "version": "2.0.1",
-  "description": "sd-jwt draft 7 implementation in typescript",
+  "description": "sd-jwt draft 7 implementation in typescript.",
   "scripts": {
     "build": "lerna run build --stream",
     "lint": "lerna run lint --stream",
