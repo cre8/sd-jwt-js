@@ -4,12 +4,11 @@
   "npmClient": "pnpm",
   "exact": true,
   "message": "chore(release): %s",
-  "packages": [
-    "packages/*"
-  ],
+  "packages": ["packages/*"],
   "command": {
     "publish": {
-      "conventionalCommits": true
+      "conventionalCommits": true,
+      "access": "public"
     }
   }
 }
