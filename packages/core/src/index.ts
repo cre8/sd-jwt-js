@@ -1,4 +1,4 @@
-import { SDJWTException } from '@hopae/sd-jwt-util';
+import { SDJWTException } from '@bcrl/sd-jwt-util';
 import { Jwt } from './jwt';
 import { KBJwt } from './kbjwt';
 import { SDJwt, pack } from './sdjwt';
@@ -9,7 +9,7 @@ import {
   SDJWTCompact,
   SDJWTConfig,
   SD_JWT_TYP,
-} from '@hopae/sd-jwt-type';
+} from '@bcrl/sd-jwt-type';
 
 export * from './sdjwt';
 export * from './kbjwt';
