@@ -77,13 +77,13 @@ jobs:
         with:
           name: coverage-artifacts
           path: coverage
-      # - name: Merge Code Coverage
-      #   run: npx nyc merge coverage/ coverage/coverage-final.json
       - name: Upload coverage reports to Codecov
         uses: codecov/codecov-action@v4.0.1
+        with:
+          file: coverage/coverage-final.json
+          fail_ci_if_error: true
         env:
           token: ${{ secrets.CODECOV_TOKEN }}
-          slug: cre8/sd-jwt-js
 
   # lint:
   #   needs: build
