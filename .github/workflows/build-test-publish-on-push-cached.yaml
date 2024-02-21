@@ -116,8 +116,8 @@ jobs:
       - test
       # - lint
     env:
-      NPM_TOKEN: ${{secrets.GITHUB_TOKEN }}
-      NODE_AUTH_TOKEN: ${{secrets.GITHUB_TOKEN }}
+      NPM_TOKEN: ${{secrets.NPM_TOKEN }}
+      NODE_AUTH_TOKEN: ${{secrets.NPM_TOKEN }}
       GH_TOKEN: ${{secrets.GITHUB_TOKEN }}
       GITHUB_TOKEN: ${{secrets.GITHUB_TOKEN }}
       GH_USER: github-actions
@@ -154,9 +154,9 @@ jobs:
 
       - name: 'Setup npm registry'
         run: |
-          echo "@hopae:registry=https://npm.pkg.github.com/" > .npmrc
-          echo "registry=https://npm.pkg.github.com/" >> .npmrc
-          echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> .npmrc
+          echo "@bcrl:registry=https://registry.npmjs.org/" > .npmrc
+          echo "registry=https://registry.npmjs.org/" >> .npmrc
+          echo "//registry.npmjs.org/:_authToken=$NPM_TOKEN" >> .npmrc
           npm whoami
 
       - name: 'Publish @latest when on main'

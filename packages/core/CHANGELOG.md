@@ -5,4 +5,4 @@ See [Conventional Commits](https://conventionalcommits.org) for commit guideline
 
 ## [2.0.3](https://github.com/openwallet-foundation-labs/sd-jwt-js/compare/v2.0.2...v2.0.3) (2024-02-20)
 
-**Note:** Version bump only for package @hopae/sd-jwt-core
+**Note:** Version bump only for package @bcrl/sd-jwt-core

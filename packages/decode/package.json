@@ -1,5 +1,5 @@
 {
-  "name": "@hopae/sd-jwt-decode",
+  "name": "@bcrl/sd-jwt-decode",
   "version": "2.0.3",
   "description": "sd-jwt draft 7 implementation in typescript",
   "main": "dist/index.js",
@@ -34,11 +34,11 @@
   },
   "license": "Apache-2.0",
   "devDependencies": {
-    "@hopae/sd-jwt-node-crypto": "2.0.3"
+    "@bcrl/sd-jwt-node-crypto": "2.0.3"
   },
   "dependencies": {
-    "@hopae/sd-jwt-type": "2.0.3",
-    "@hopae/sd-jwt-util": "2.0.3"
+    "@bcrl/sd-jwt-type": "2.0.3",
+    "@bcrl/sd-jwt-util": "2.0.3"
   },
   "tsup": {
     "entry": [

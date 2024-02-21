@@ -1,5 +1,5 @@
-import { decodeSdJwt, getClaims } from '@hopae/sd-jwt-decode';
-import { digest } from '@hopae/sd-jwt-node-crypto';
+import { decodeSdJwt, getClaims } from '@bcrl/sd-jwt-decode';
+import { digest } from '@bcrl/sd-jwt-node-crypto';
 
 (async () => {
   const sdjwt =
