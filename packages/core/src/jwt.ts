@@ -1,6 +1,6 @@
-import { Base64urlEncode, SDJWTException } from '@hopae/sd-jwt-util';
-import { Base64urlString, Signer, Verifier } from '@hopae/sd-jwt-type';
-import { decodeJwt } from '@hopae/sd-jwt-decode';
+import { Base64urlEncode, SDJWTException } from '@bcrl/sd-jwt-util';
+import { Base64urlString, Signer, Verifier } from '@bcrl/sd-jwt-type';
+import { decodeJwt } from '@bcrl/sd-jwt-decode';
 
 export type JwtData<
   Header extends Record<string, any>,

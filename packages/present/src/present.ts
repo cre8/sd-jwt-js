@@ -1,5 +1,5 @@
-import { Hasher, SD_SEPARATOR } from '@hopae/sd-jwt-type';
-import { Disclosure, SDJWTException } from '@hopae/sd-jwt-util';
+import { Hasher, SD_SEPARATOR } from '@bcrl/sd-jwt-type';
+import { Disclosure, SDJWTException } from '@bcrl/sd-jwt-util';
 import {
   createHashMapping,
   decodeSdJwt,
@@ -9,8 +9,8 @@ import {
   createHashMappingSync,
   decodeSdJwtSync,
   unpackSync,
-} from '@hopae/sd-jwt-decode';
-import { HasherSync } from '@hopae/sd-jwt-type/src/type';
+} from '@bcrl/sd-jwt-decode';
+import { HasherSync } from '@bcrl/sd-jwt-type/src/type';
 
 // Presentable keys
 // The presentable keys are the path of JSON object that are presentable in the SD JWT
