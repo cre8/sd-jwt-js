@@ -154,8 +154,8 @@ jobs:
 
       - name: 'Setup npm registry'
         run: |
-          echo "@hopae:registry=npm.pkg.github.com" > .npmrc
-          echo "registry=npm.pkg.github.com" >> .npmrc
+          echo "@hopae:registry=https://npm.pkg.github.com/" > .npmrc
+          echo "registry=https://npm.pkg.github.com/" >> .npmrc
           echo "//npm.pkg.github.com/:_authToken=$NPM_TOKEN" >> .npmrc
           npm whoami
 
